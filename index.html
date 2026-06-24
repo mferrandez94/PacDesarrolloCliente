@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad JS - Gestión de Mascotas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Registro de Mascotas</h1>
+        <form id="petForm">
+            <input type="text" id="petName" placeholder="Nombre">
+            <input type="text" id="petChip" placeholder="Chip (4 números)">
+            <button type="button" id="btnAdd">Añadir Mascota</button>
+        </form>
+        <div id="actions">
+            <button type="button" id="btnSort">Ordenar por Nombre</button>
+            <button type="button" id="btnDelete">Eliminar Lista</button>
+        </div>
+        <ul id="petList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
